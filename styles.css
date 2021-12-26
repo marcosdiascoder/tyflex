@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+}
+
+main .menu {
+    padding-left: 54px;
+}
+
+main .menu img {
+    margin-top: 50px;
+}
+
+main .texto {
+    color: white;
+    margin-left: 60px;
+    margin-top: 150px;
+}
+
+main .texto button {
+    background: transparent;
+    color: #FA6730;
+    border-color: #FA6730;
+    border-style: solid;
+    padding: 10px 20px 10px 20px;
+    margin: 40px;
+    margin-left: 0px;
+}
+
+main .texto button:hover {
+    cursor: pointer;
+    background-color: #5530fa;
+    color: white;
+    transition: 0.4s linear;
+}
+
+@media (max-width: 600px) {
+    main {
+        background-image: linear-gradient(to top, black, purple);
+    }
+
+    main .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    main .texto {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
