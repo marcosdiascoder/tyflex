@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyflex | O streaming que é muito mais streaming!</title>
+    <script src="https://kit.fontawesome.com/a0c47053b1.js" crossorigin="anonymous"></script>
+    <meta name="author" content="https://github.com/marcosdiascoder">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/logo_default.png" type="image/x-icon" />
+</head>
+
+<body>
+    <main>
+        <div class="menu">
+            <img src="assets/logo_default.png" width="180px" height="50px">
+        </div>
+        <div class="texto">
+            <h1>O streaming que é </br><h1>mais streaming</h1></h1>
+            <a><button class="button">SEJA PREMIUM <i class="fas fa-credit-card"></i></button></a>
+            <a href="https://tyflex.is"><button class="button">COMEÇAR <i class="fas fa-play-circle"></i></button></a>
+        </div>
+    </main>
+    <script type="text/javascript" src="assets/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".button"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.5
+        });
+
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".button"));
+    </script>
+</body>
+
+</html>
